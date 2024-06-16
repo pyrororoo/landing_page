@@ -9,11 +9,17 @@ body {
     margin: 0;
 }
 
+button {
+    font-size: 16px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
 .header,
 .headline,
 .information,
 .quote,
-.call-to-action,
 .footer {
     padding: 60px 350px;
 }
@@ -74,14 +80,10 @@ body {
 }
 
 .headline .learn-more{
-    font-size: 16px;
     font-weight: 600;
-    color: #F9FAF8;
-    background-color: #3882F6;
     border: none;
-    padding: 16px 36px;
-    border-radius: 10px;
     margin-top: 12px;
+    padding: 16px 36px;
 }
 
 .headline img {
@@ -166,12 +168,36 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 54px auto;
 }
 
 .container {
     background-color: #3882F6;
+    margin: 54px;
     padding: 36px 150px;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
+}
+
+.left {
+    color: #F9FAF8;
+    margin-right: 800px;
+}
+
+.left h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.left p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.right {
+    font-size: 18px;
+    font-weight: 900;
+    border: 2px solid #F9FAF8;
+    padding: 0 36px;
 }
