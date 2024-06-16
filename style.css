@@ -4,12 +4,22 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header,
+.headline,
+.information,
+.quote,
+.call-to-action,
+.footer {
+    padding: 35px 350px;
 }
 
 /* header */
+
 .header {
     background-color: #1F2937;
-    padding: 35px 350px;
     display: flex;
     justify-content: space-between;
     align-content: center;
@@ -18,7 +28,7 @@ body {
 .header .logo {
     font-weight: 800;
     font-size: 18px;
-    color: white;
+    color: #F9FAF8;
     padding: 0;
     margin: 0;
 }
@@ -35,3 +45,15 @@ body {
     text-decoration: none;
 }
 
+
+/* headline */
+
+.headline {
+    background-color: #1F2937;
+}
+
+.headline .title {
+    color: #F9FAF8;
+    font-size: 48px;
+    border: 1px solid black;
+}
