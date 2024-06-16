@@ -15,14 +15,11 @@ button {
 }
 
 .headline,
-.information
-{
-    padding-left:  350px;
-    padding-right: 350px;
+.information,
+.quote {
     padding-top: 45px;
-    padding-bottom: 170px;
+    padding-bottom: 70px;
 }
-
 
 /* header */
 
@@ -31,11 +28,10 @@ button {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    padding: 45px 350px;
+    padding: 45px 150px;
 }
 
 .header .logo {
-    flex-grow: 1;
     font-weight: 900;
     font-size: 24px;
     color: #F9FAF8;
@@ -63,23 +59,29 @@ button {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    padding-left:  150px;
+    padding-right: 150px;
 }
 
-.headline .title {
+.text {
+    flex-basis: 800px;
+}
+
+.title {
     color: #F9FAF8;
     font-weight: 900;
     font-size: 48px;
     margin: 0;
 }
 
-.headline .paragraph {
+.paragraph {
     color: #E5E7EB;
     font-size: 18px;
     font-weight: 300;
     margin-top: 10px;
 }
 
-.headline .learn-more{
+.learn-more{
     font-weight: 600;
     border: none;
     margin-top: 12px;
@@ -87,9 +89,9 @@ button {
 }
 
 .headline img {
-    height: auto;
+    height: 100%;
     margin-left: 80px;
-    width: 600px;
+    width: 500px;
 }
 
 /* information */
@@ -110,11 +112,11 @@ button {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 58px;
+    gap: 40px;
 }
 
 .card {
-    max-width: 225px;
+    max-width: 200px;
 }
 
 .card p {
@@ -123,8 +125,8 @@ button {
 }
 
 .card img {
-    height: 225px;
-    width: 225px;
+    height: 200px;
+    width: 200px;
     border-radius: 20px;
     border: 4px solid #3882F6;
 }
@@ -138,7 +140,6 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 64px 350px;
 }
 
 .quote blockquote {
@@ -176,14 +177,13 @@ button {
     margin: 54px;
     padding: 54px 100px;
     border-radius: 10px;
-    flex-shrink: 5;
     display: flex;
+    flex-basis: 800px;
     justify-content: space-between;
 }
 
 .left {
     color: #F9FAF8;
-    margin-right: 700px;
 }
 
 .left h3 {
