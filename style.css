@@ -88,7 +88,6 @@ body {
     height: auto;
     margin-left: 80px;
     min-width: 600px;
-    margin-bottom: 48px;
 }
 
 /* information */
@@ -140,6 +139,7 @@ body {
     align-items: center;
 }
 
+
 .quote blockquote {
     color: #1F2937;
 }
@@ -147,8 +147,15 @@ body {
 .quote blockquote p {
     font-size: 36px;
     font-weight: 300;
+    margin-bottom: 8px;
 }
 
 .quote blockquote footer {
+    font-weight: 800;
+    font-size: 24px;
     text-align: right;
+}
+
+.quote .rand {
+    color: gray;
 }
