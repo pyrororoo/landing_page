@@ -139,7 +139,6 @@ body {
     align-items: center;
 }
 
-
 .quote blockquote {
     color: #1F2937;
 }
@@ -158,4 +157,21 @@ body {
 
 .quote .rand {
     color: gray;
+}
+
+
+/* call to action */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #3882F6;
+    padding: 36px 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
