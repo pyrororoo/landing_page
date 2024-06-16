@@ -98,6 +98,11 @@ body {
     flex-direction: column;
 }
 
+.information h2 {
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+}
 .info-content {
     display: flex;
 }
