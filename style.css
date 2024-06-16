@@ -15,7 +15,7 @@ body {
 .quote,
 .call-to-action,
 .footer {
-    padding: 35px 350px;
+    padding: 60px 350px;
 }
 
 /* header */
@@ -28,7 +28,7 @@ body {
 }
 
 .header .logo {
-    font-weight: bolder;
+    font-weight: 900;
     font-size: 24px;
     color: #F9FAF8;
     padding: 0;
@@ -44,6 +44,7 @@ body {
 }
 
 .header .nav li {
+    font-weight: 300;
     text-decoration: none;
     font-size: 16px;
 }
@@ -59,20 +60,31 @@ body {
 
 .headline .title {
     color: #F9FAF8;
+    font-weight: 900;
     font-size: 48px;
-    border: 1px solid black;
     margin: 0;
 }
 
 .headline .paragraph {
     color: #E5E7EB;
     font-size: 18px;
-    margin-top: 0;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.headline .learn-more{
+    font-size: 16px;
+    font-weight: 600;
+    color: #F9FAF8;
+    background-color: rgb(51, 132, 207);
+    border: none;
+    padding: 16px 36px;
+    border-radius: 10px;
+    margin-top: 12px;
 }
 
 .headline img {
     height: auto;
-    margin-left: 48px;
+    margin-left: 80px;
     width: 600px;
-
 }
